@@ -13,6 +13,14 @@ This project is a dynamic dashboard built with React and Vite, where users can a
 
 Check out the live version of the project here: [Live Demo Link](#) _(https://accuknox-task-eight.vercel.app/)_
 
+![Dashboard Screenshot](./images/1.png)
+
+## Search
+![Search](./images/2.png)
+
+## Add Widget
+![Dashboard Screenshot](./images/3.png)
+
 ## Installation and Setup
 
 ### Prerequisites
