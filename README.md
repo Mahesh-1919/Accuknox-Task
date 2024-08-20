@@ -11,7 +11,7 @@ This project is a dynamic dashboard built with React and Vite, where users can a
 
 ## Live Demo
 
-Check out the live version of the project here: [Live Demo Link](#) _(Replace with actual link)_
+Check out the live version of the project here: [Live Demo Link](#) _(https://accuknox-task-eight.vercel.app/)_
 
 ## Installation and Setup
 
@@ -25,24 +25,33 @@ Check out the live version of the project here: [Live Demo Link](#) _(Replace wi
 ```bash
 git clone https://github.com/Mahesh-1919/Accuknox-Task.git
 cd your-repo-name
-
+```
 ### 2. Install Dependencies
+
 Using npm:
-bash
+
+```bash
 Copy code
 npm install
+```
+
 Using yarn:
-bash
+``` bash
 Copy code
 yarn install
+```
 3. Start the Development Server
+   
 Using npm:
-bash
+
+```bash
 Copy code
 npm run dev
+```
 Using yarn:
-bash
+```bash
 Copy code
 yarn dev
+```
 This will start the development server on http://localhost:5173/ (by default). You can now view and interact with the dashboard in your browser.
 
