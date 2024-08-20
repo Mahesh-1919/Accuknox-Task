@@ -1,50 +1,48 @@
-# React + TypeScript + Vite
+AccuKnox-Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This project is a dynamic dashboard built with React and Vite, where users can add and remove widgets from various categories. The dashboard allows for real-time updates and interaction, providing a flexible way to manage different widgets in categorized sections.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Dynamically add and remove widgets from categories.
+- Real-time updates and state management.
+- Simple and intuitive user interface.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Live Demo
 
-- Configure the top-level `parserOptions` property like this:
+Check out the live version of the project here: [Live Demo Link](#) _(Replace with actual link)_
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Installation and Setup
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Prerequisites
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Node.js** (v14 or above)
+- **npm** (v6 or above) or **yarn** (v1.22 or above)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Mahesh-1919/Accuknox-Task.git
+cd your-repo-name
+
+### 2. Install Dependencies
+Using npm:
+bash
+Copy code
+npm install
+Using yarn:
+bash
+Copy code
+yarn install
+3. Start the Development Server
+Using npm:
+bash
+Copy code
+npm run dev
+Using yarn:
+bash
+Copy code
+yarn dev
+This will start the development server on http://localhost:5173/ (by default). You can now view and interact with the dashboard in your browser.
+
